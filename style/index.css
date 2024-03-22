@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: var(--corPrimaria);
+}
+:root {
+    --corPrimaria: #e8e6e6;
+    --Branca: #ffffff;
+    --Preta: #000000;
+}
+#Links {
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+    font-size: 20pt;
+    text-decoration: none;
+}
+A {
+    text-decoration: none;
+    color: var(--Preta);
+    margin: 0px 30px;
+}
+#Banner{
+    width: 100%;
+    display: flex;
+}
+#logo1 {
+    width: 30%;
+}
+#logo2 {
+    width: 70%;
+}
+#info {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+#Titulos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Preta);
+    color: var(--Branca);
+}
+#Bloco {
+    width: 100%;
+    display: flex;
+}
+h3,p {
+    padding: 10px;
+}
+#mapa {
+    background-color: var(--Branca);
+}
+#Serviços {
+    width: 72%;
+}
+#Agenda {
+    width: 28%;
+}
