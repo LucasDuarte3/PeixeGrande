@@ -10,6 +10,7 @@ body {
     --corPrimaria: #e8e6e6;
     --Branca: #ffffff;
     --Preta: #000000;
+    --vermelha: rgb(197, 0, 0);
 }
 #Links {
     margin: 10px;
@@ -60,4 +61,10 @@ h3,p {
 }
 #Agenda {
     width: 28%;
+}
+footer {
+    width: 100%;
+    padding: 30px;
+    background-color: var(--Preta);
+    color: var(--vermelha);
 }
